@@ -9,7 +9,8 @@ Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos nece
 ## Estudio utilizado
 
 - **ID del proyecto:** PXD065994  
-- **Título:** *rhGAA ADA epitopes determination*  
+- **Título:** *rhGAA ADA epitopes determination*
+- **Fecha de publicación**: ***31/08/2025***
 - **Fuente oficial:**  
   -> https://www.ebi.ac.uk/pride/archive/projects/PXD065994
 - Se ha empleado el archivo .tsv:
