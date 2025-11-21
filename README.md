@@ -1,4 +1,4 @@
-Análisis de Datos Proteómicos Públicos — PRIDE PXD070354
+Análisis de Datos Proteómicos Públicos — PRIDE PROJECT PXD065994
 ---
 
 
@@ -8,22 +8,27 @@ Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos nece
 
 ## Estudio utilizado
 
-- **ID del proyecto:** PXD070354  
-- **Título:** *Chromatin architecture reprogramming in breast cancer*  
+- **ID del proyecto:** PXD065994  
+- **Título:** *rhGAA ADA epitopes determination*  
 - **Fuente oficial:**  
-  -> https://www.ebi.ac.uk/pride/archive/projects/PXD070354
+  -> https://www.ebi.ac.uk/pride/archive/projects/PXD065994
 - Se ha empleado el archivo .tsv:
-  - `Liliana-July2025_report.pr_matrix.tsv`
+  - `combined_modified_peptide.tsv`
 ---
 
-### Vista previa del archivo `Liliana-July2025_report.pr_matrix.tsv`
+### Vista previa del archivo `combined_modified_peptide.tsv`
 
-| Protein.Group | Protein.Ids        | Protein.Names | Genes  | First.Protein.Description                                       | Proteotypic | Stripped.Sequence | Modified.Sequence | Precursor.Charge | Precursor.Id       |
-|--------------|--------------------|---------------|--------|------------------------------------------------------------------|-------------|-------------------|-------------------|------------------|---------------------|
-| Q8NFD5       | Q8NFD5;Q9Y651      | ARI1B_HUMAN   | ARID1B | AT-rich interactive domain-containing protein 1B                 | 0           | AAAAAAAAAAR       | AAAAAAAAAAR       | 2                | AAAAAAAAAAR2       |
-| P36578       | P36578             | RL4_HUMAN     | RPL4   | Large ribosomal subunit protein uL4                              | 1           | AAGLNTNVTR        | AAGLNTNVTR        | 2                | AAGLNTNVTR2        |
-| Q8NFD5       | Q8NFD5             | ARI1B_HUMAN   | ARID1B | AT-rich interactive domain-containing protein 1B                 | 1           | AAPAAAGDSDSDSGPR  | AAPAAAGDSDSDSGPR  | 2                | AAPAAAGDSDSDSGPR2  |
-| Q9BRK4       | Q9BRK4             | LZTS2_HUMAN   | LZTS2  | Leucine zipper putative tumor suppressor 2                       | 1           | AAPPPPSVPR        | AAPPPPSVPR        | 2                | AAPPPPSVPR2        |
-| P58107       | P58107             | EPIPL_HUMAN   | EPPK1  | Epiplakin                                                       | 1           | AAQNLAPSVNR       | AAQNLAPSVNR       | 2                | AAQNLAPSVNR2       |
+| Peptide Sequence                      | Modified Sequence                      | Prev AA | Next AA | Start | End | Start.1 | End.1 | Peptide Length | Charges   |
+|---------------------------------------|-----------------------------------------|---------|---------|-------|-----|---------|-------|----------------|-----------|
+| AEVTGYFPLGTWYDLQTVPIEALGSLPPPPAAPR    | AEVTGYFPLGTWYDLQTVPIEALGSLPPPPAAPR      | K       | E       | 705   | 738 | 761     | 794   | 34             | 3,4,5     |
+| AGYIIPLQGPGLTTTESR                    | AGYIIPLQGPGLTTTESR                      | R       | Q       | 764   | 781 | 820     | 837   | 18             | 2,3       |
+| AHFPLDVQWNDLDYMDSR                    | AHFPLDVQWNDLDYMDSR                      | R       | R       | 338   | 355 | 394     | 411   | 18             | 2,3       |
+| AHFPLDVQWNDLDYMDSR                    | AHFPLDVQWNDLDYM[15.9949]DSR             | R       | R       | 338   | 355 | 394     | 411   | 18             | 3         |
+| AHFPLDVQWNDLDYMDSRR                   | AHFPLDVQWNDLDYMDSRR                     | R       | D       | 338   | 356 | 394     | 412   | 19             | 3,4       |
+| AHFPLDVQWNDLDYMDSRR                   | AHFPLDVQWNDLDYM[15.9949]DSRR            | R       | D       | 338   | 356 | 394     | 412   | 19             | 4         |
+| AHFPLDVQWNDLDYMDSRRDFTFNK             | AHFPLDVQWNDLDYMDSRRDFTFNK               | R       | D       | 338   | 362 | 394     | 418   | 25             | 3,4,5     |
+| AHFPLDVQWNDLDYMDSRRDFTFNK             | AHFPLDVQWNDLDYM[15.9949]DSRRDFTFNK      | R       | D       | 338   | 362 | 394     | 418   | 25             | 4         |
+| ALTLRYALLPHLYTLFHQAHVAGETVAR          | ALTLRYALLPHLYTLFHQAHVAGETVAR            | K       | P       | 642   | 669 | 698     | 725   | 28             | 3,4,5,6   |
+| ALTLRYALLPHLYTLFHQAHVAGETVARPLFLEFPK  | ALTLRYALLPHLYTLFHQAHVAGETVARPLFLEFPK     | K       | D       | 642   | 677 | 698     | 733   | 36             | 4,5,6,7   |
 
 ---
