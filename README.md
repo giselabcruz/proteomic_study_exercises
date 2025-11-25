@@ -9,7 +9,6 @@ Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos nece
 
 - **ID del proyecto:** PXD068004  
 - **Título:** *The proteomic landscape of CTNNB1 mutated low-grade early-stage endometrial carcinomas*
-- **Fecha de publicación**: ***11/11/2025***
 - **Fuente oficial:**  
   -> https://www.ebi.ac.uk/pride/archive/projects/PXD068004
 - Se ha empleado el archivo .tsv:
