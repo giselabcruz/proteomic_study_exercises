@@ -12,10 +12,10 @@ Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos nece
 - **Fuente oficial:**  
   -> https://www.ebi.ac.uk/pride/archive/projects/PXD068004
 - Se ha empleado el archivo .tsv:
-  - `peptides_All_Samples.txt`
+  - `peptides.txt`
 ---
 
-### Vista previa de `peptides_All_Samples.txt`
+### Vista previa de `peptides.txt`
 
 
 
