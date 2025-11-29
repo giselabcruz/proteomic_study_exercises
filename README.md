@@ -13,9 +13,6 @@ Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos nece
   -> https://www.ebi.ac.uk/pride/archive/projects/PXD068004
 - Se ha empleado el archivo .tsv:
   - `peptides.txt`
----
-
-### Vista previa de `peptides.txt`
 
 
 
