@@ -1,7 +1,7 @@
 Análisis de Datos Proteómicos Públicos — PRIDE PROJECT PXD068004
 ---
 
-Este repositorio contiene el cuaderno (**Jupyter Notebook**) y los archivos necesarios para realizar un análisis introductorio de datos proteómicos obtenidos del repositorio público **PRIDE Archive**.
+Este repositorio (https://github.com/giselabcruz/proteomic_study_exercises) contiene el cuaderno (**Jupyter Notebook**) y los archivos necesarios para realizar un análisis introductorio de datos proteómicos obtenidos del repositorio público **PRIDE Archive**.
 
 ---
 
